@@ -1,6 +1,6 @@
 
 .column {
-    width: 360px;
+    width: 300px;
     height: 170px;
     background: white;
     float: left;
@@ -34,5 +34,8 @@
 .columns {
   overflow: hidden;
   background-color: #F1F1F1;
+  margin-left: 10px !important;
+  margin-right:10px !important;
+  max-width: 100% !important;
 }
 
