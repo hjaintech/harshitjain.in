@@ -7,13 +7,14 @@
 
     <title>Harshit Jain</title>
 
-    
+
 <!--  LOADING JQUERY LIBRARY-->
 <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
 
+
 <!-- CODE TO ENABLE SMOOTH SCROLLING IN MENU  -->
 <script type="text/javascript">
-      $(document).ready(function(){
+  /*    $(document).ready(function(){
   $('a[href*=\\#]').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname) {
@@ -28,7 +29,10 @@
       }
     }
   });
-});
+});*/
+
+
+
 </script>
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
@@ -49,7 +53,8 @@
 <!-- Scripts for tiles -->
 <link rel="stylesheet" href="css/styles.css" >
 
-
+<link rel="stylesheet" href="css/youtubepopup.css" >
+<script type="text/javascript" src="js/youtubepopup.js"> </script>
 </head>
 <body>
 
@@ -85,13 +90,16 @@
         </div>
         <div class="content">
             Hello
+           <a href="#" onclick="openYouTube('_AJ0SkbPxAk')">Stewie Beats Brian</a>
+           <div id="bg" class="popup_bg"></div>
+
         </div>
 
         <div id="idBlogs" class="header">
             <h1>Blogs</h1>
            <!--  <h2>A subtitle for your page goes here</h2> -->
         </div>
-        <div class="content columns">
+        <div id="idBlogContents" class="content columns">
             <div id = "#idBlogPost" class="column" >
                 <h3><a href="http://www.geeksforgeeks.org/must-use-javascript-array-functions-part-1/">Must use JavaScript Array Functions – Part 1</a>
                 <img src="img/gfg.PNG" height="30px" width="200px"/>
@@ -158,64 +166,64 @@
          <div class="content">
             <ul>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=EQQp4B_CU5Q">Union and Intersection of two sorted arrays</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=EQQp4B_CU5Q');" href="">Union and Intersection of two sorted arrays</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/H13iz0rbeeo">Program to check if a given binary tree is BST or not</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=H13iz0rbeeo');" href="">Program to check if a given binary tree is BST or not</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=hoceGcqQczM">Find minimum distance between two numbers</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=hoceGcqQczM');" href="">Find minimum distance between two numbers</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=lBk6fVhuCyw">Find the missing number</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=lBk6fVhuCyw');" href="">Find the missing number</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=uwogtyFiDLg">Majority Element</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=uwogtyFiDLg');" href="">Majority Element</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=NyRZm1pzNmQ">Leaders in an array</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=NyRZm1pzNmQ');" href="">Leaders in an array</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=hySR1exD5PE">Find the Number Occurring Odd Number of Times</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=hySR1exD5PE');" href="">Find the Number Occurring Odd Number of Times</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=NFvAD5na5oU">Find a peak element</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=NFvAD5na5oU');" href="">Find a peak element</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=hASRzBXY5kY">Find a fixed point in an array</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=hASRzBXY5kY');" href="">Find a fixed point in an array</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=bLb8e83OK7o">Replace every element with the greatest on right side</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=bLb8e83OK7o');" href="">Replace every element with the greatest on right side</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/6sz42JCApIw">Rearrange an array in maximum minimum form</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=6sz42JCApIw');" href="">Rearrange an array in maximum minimum form</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/eMuC2LCoMvU">Count Strictly Increasing Subarrays</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=eMuC2LCoMvU');" href="">Count Strictly Increasing Subarrays</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/DR7NgPnErxI">Segregate 0s and 1s in an array</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=DR7NgPnErxI');" href="">Segregate 0s and 1s in an array</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/I7Nz1XzzPYc">Given an array A[] and a number x, check for pair in A[] with sum as x</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=I7Nz1XzzPYc');" href="">Given an array A[] and a number x, check for pair in A[] with sum as x</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/qjNVJTUge7s">Print missing elements that lie in range 0 – 99</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=qjNVJTUge7s');" href="">Print missing elements that lie in range 0 – 99</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/Nzm9emAkSCM">Floor and Ceiling in a sorted array</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=Nzm9emAkSCM');" href="">Floor and Ceiling in a sorted array</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/BjODIZvW4no">Implement 2 stacks in an array</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=BjODIZvW4no');" href="">Implement 2 stacks in an array</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/Cr20pvlhqBU">Find minimum difference between any two elements</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=Cr20pvlhqBU');" href="">Find minimum difference between any two elements</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/dx8twFuPgvg">Find lost element from a duplicated array</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=dx8twFuPgvg');" href="">Find lost element from a duplicated array</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/HuZJqRDOPo0">Find duplicates in O(n) time and O(1) extra space</a>
+                    <a onclick="return openYouTube('https://www.youtube.com/watch?v=HuZJqRDOPo0');" href="">Find duplicates in O(n) time and O(1) extra space</a>
                 </li>
             </ul>
         </div>
