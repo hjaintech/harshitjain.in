@@ -14,7 +14,7 @@
 
 <!-- CODE TO ENABLE SMOOTH SCROLLING IN MENU  -->
 <script type="text/javascript">
-  /*    $(document).ready(function(){
+      $(document).ready(function(){
   $('a[href*=\\#]').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname) {
@@ -29,7 +29,7 @@
       }
     }
   });
-});*/
+});
 
 
 
@@ -53,8 +53,10 @@
 <!-- Scripts for tiles -->
 <link rel="stylesheet" href="css/styles.css" >
 
+<!-- Scripts for showing youtube videos in a pop up-->
 <link rel="stylesheet" href="css/youtubepopup.css" >
 <script type="text/javascript" src="js/youtubepopup.js"> </script>
+
 </head>
 <body>
 
@@ -90,8 +92,8 @@
         </div>
         <div class="content">
             Hello
-           <a href="#" onclick="openYouTube('_AJ0SkbPxAk')">Stewie Beats Brian</a>
-           <div id="bg" class="popup_bg"></div>
+            <!-- Div to be used to block screen when youtube video is playing -->
+            <div id="bg" class="popup_bg"></div>
 
         </div>
 
