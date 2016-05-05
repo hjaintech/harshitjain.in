@@ -40,7 +40,7 @@
 }
 
 .always_center {
-  display: inline-block;
+    display: inline-block;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -51,4 +51,16 @@
     margin: auto;
     z-index: 2;
     /*background-color: #f3f3f3;*/
-};
+}
+
+.rounded-img {
+      border-radius: 50%;
+      width:30%;
+      height:30%;
+
+      margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+
