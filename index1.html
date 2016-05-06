@@ -31,7 +31,10 @@
   });
 });
 
-
+// Code to animate the fade-in effect on self image
+$(document).ready(function(){
+    $("#self_img").delay(250).animate({"opacity": "1"}, 700);
+});
 
 </script>
 
@@ -93,7 +96,7 @@
         </div>
         <div class="content">
             Hi. I'm Harshit Jain. Based out of Delhi, currently slogging at SAP, Gurgaon as Front-end Developer. 
-            <img src="img/jain.JPG" class="rounded-img"/>
+            <img id="self_img" src="img/jain.JPG" class="rounded-img"/>
             
         </div>
 
