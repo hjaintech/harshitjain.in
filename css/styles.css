@@ -39,6 +39,14 @@
   max-width: 100% !important;
 }
 
+.full-screen {
+  overflow: hidden;
+  
+  margin-left: 10px !important;
+  margin-right:10px !important;
+  max-width: 100% !important;  
+}
+
 .always_center {
     display: inline-block;
     position: fixed;
@@ -55,8 +63,8 @@
 
 .rounded-img {
       border-radius: 50%;
-      width:30%;
-      height:30%;
+      width:20%;
+      height:20%;
 
       margin-left: auto;
     margin-right: auto;
@@ -64,4 +72,15 @@
     margin-top: 20px;
     opacity: 0;
 }
+#AboutMeDiv h2 {
+  margin: 0px;
+  margin-top:20px;
+}
+#AboutMeDiv h3 {
+  margin: 0px;
+}
+.20pxMarginTop {
+  margin-top:20px;
+}
+
 
